@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-tbs-webview",
-  "version": "0.1.6",
-  "description": "Changes the default WebView to x5",
+  "name": "cordova-plugin-tbs-webview-ionic4",
+  "version": "0.1.8",
+  "description": "Changes the default WebView to x5 for ionic4",
   "cordova": {
-    "id": "cordova-plugin-tbs-webview",
+    "id": "cordova-plugin-tbs-webview-ionic4",
     "platforms": [
       "android"
     ]

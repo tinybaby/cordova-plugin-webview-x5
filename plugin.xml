@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-tbs-webview"
+        id="cordova-plugin-tbs-webview-ionic4"
         version="0.1.6">
 
     <name>TBS WebView</name>
@@ -41,7 +41,9 @@
         <source-file src="platforms/android/src/org/apache/cordova/x5engine/X5WebView.java" target-dir="src/org/apache/cordova/x5engine"/>
         <source-file src="platforms/android/src/org/apache/cordova/x5engine/X5WebViewClient.java" target-dir="src/org/apache/cordova/x5engine"/>
         <source-file src="platforms/android/src/org/apache/cordova/x5engine/X5WebViewEngine.java" target-dir="src/org/apache/cordova/x5engine"/>
-
+        <source-file src="platforms/android/src/org/apache/cordova/x5engine/AndroidProtocolHandler.java" target-dir="src/org/apache/cordova/x5engine"/>
+        <source-file src="platforms/android/src/org/apache/cordova/x5engine/UriMatcher.java" target-dir="src/org/apache/cordova/x5engine"/>
+        <source-file src="platforms/android/src/org/apache/cordova/x5engine/WebViewLocalServer.java" target-dir="src/org/apache/cordova/x5engine"/>
         <source-file src="platforms/android/src/com/liuxiaoy/cordova/MainApplication.java" target-dir="src/com/liuxiaoy/cordova"/>
 
         <source-file src="platforms/android/libs/tbs_sdk_thirdapp_v4.3.0.1020_43633_sharewithdownload_withoutGame_obfs_20190111_105200.jar" target-dir="libs"/>
@@ -56,5 +58,7 @@
         If X5 version has upgraded,you can update TBS(.so and .jar) by yourself.
         To contact me for any problems about this cordova-plugin-tbs-webview!
         https://github.com/liuxiaoy/cordova-plugin-tbs-webview/issues
+
+        这个项目 fork 自 https://github.com/liuxiaoy/cordova-plugin-webview-x5 ,我修改了一下来支持ionic4
     </info>
 </plugin>
