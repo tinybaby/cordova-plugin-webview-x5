@@ -1,7 +1,7 @@
 # cordova-plugin-tbs-webview
 
 把``Cordova``的``WebView``替换为腾讯的[X5](http://x5.tencent.com/)。使用腾讯浏览服务TBS完整版SDK。
-
+支持ionic4
 ## 优劣比较
 
 ### 优势
